@@ -1,0 +1,2 @@
+#!/bin/bash
+DEST_DIR=$(0x00-shell_basics "{SRC_DIR}") find "${SRC_DIR}" -name "*.html" -type f -newer "${DEST_DIR}" > xargs -I{} cp --parents {} "DEST_DIR}"
